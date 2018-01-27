@@ -1,0 +1,405 @@
+@charset "utf-8";
+/* Custom CSS Document */
+
+header {
+	margin-top: 15px;
+}
+#logo img {
+/*	max-width: 200px;*/
+}
+#logo {
+	float: none;
+	display: inline-table;
+}
+#logo + div {
+	float: none;
+	display: inline-block;
+	vertical-align: middle;
+	width: auto;
+}
+span {
+	font-size: 0.8em;
+	text-indent: 25px;
+	display: table;
+}
+label {
+	display: table;
+}
+#_temp {
+	display: none;
+}
+#leftCol-bottom .columns:last-child:not(:first-child) {
+	float: none;
+}
+.cat {
+	min-height: 385px;
+	float: none;
+	display: inline-table;
+	margin-bottom: 35px;
+}
+.cat .catHeader + .pageItem a {
+/*    color: #000;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 1.2rem;*/
+}
+.pageItem a h4 {
+	font-size: 0.85rem;
+	line-height: 1.2rem;
+	display: table;
+	color: #666;
+	width: 95%;
+}
+.pageItem a:hover {
+	color: #000;
+	text-decoration: underline;
+}
+.cat .catHeader + .pageItem span {
+	display: block;
+	min-height: 150px;
+	margin-bottom: 10px;
+	background-size: cover !important;
+}
+.pageItem {
+	border-bottom: 0.5px solid rgba(153, 153, 153, 0.2);
+	display: table;
+	padding-top: 0.6rem;
+	width: 100%;
+}
+.pageItem span {
+	/*float: left;
+width: 75px;
+margin-right: 10px;
+height: 60px;
+background-size: 105px auto !important;*/
+	display: none;
+}
+.catHeader, p.relatedArt {
+	font-size: 0.6rem !important;
+	text-transform: uppercase;
+	font-weight: 800;
+	color: #999;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+p.relatedArt.alt1 {
+	margin-bottom: 25px !important;
+}
+.cat {
+	min-height: 385px;
+}
+.featPrimary {
+	position: relative;
+	overflow: hidden;
+	min-height: 420px;/*margin-bottom: 25px;*/
+}
+.featPrimary div {
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	padding: 1rem 0 0 1rem;
+	text-indent: 0;
+	color: #fff;
+	background: linear-gradient(transparent, rgba(0, 0, 0, 0.95));
+	font-weight: bold;
+}
+.featPrimary div h1 {
+	font-size: 2.7rem;
+	font-weight: bold;
+	letter-spacing: -0.1rem;
+	line-height: 2.4rem;
+}
+.featPrimary p {
+	font-size: 0.9rem;
+	opacity: 0.7;
+	line-height: 1rem;
+	font-weight: normal;
+}
+.featPrimary div p:first-child {
+	margin: 0;
+	opacity: 0.5;
+}
+#featSecondary .featNon {
+/*margin-bottom: 15px;*/
+}
+.featNon {
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 15px;
+	min-height: 203px;
+}
+.featNon span {
+	position: absolute;
+	bottom: 0;
+	text-indent: 0;
+	background: linear-gradient(transparent, rgba(0, 0, 0, 0.9));
+	color: #fff;
+	padding-left: 1rem;
+	padding-right: 0.5rem;
+	padding-top: 35px;
+	padding-bottom: 10px;
+	width: 100%;
+}
+.featNon span h2 {
+	font-size: 1.4rem;
+	line-height: 1.3rem;
+	letter-spacing: -0.01rem;
+	font-weight: bold;
+}
+.featNon span p {
+	margin: 5px 0px 0px 0px !important;
+	font-size: 0.6rem;
+	color: #fff;
+	font-weight: bold;
+	opacity: 0.6;
+}
+.featNon span > p:last-child {
+/*display: none;*/
+}
+#dot1, #dot2, #dot3 {
+	height: 45px;
+	margin: 0px 0px 5px 0px;
+	line-height: 1.0rem;
+	text-indent: 0;
+	font-weight: normal;
+	opacity: 0.7;
+	font-size: 0.75rem;
+}
+.leftCol-bottom {
+/*margin-top: 15px;*/
+}
+#leftCol span.featured {
+	text-indent: 0 !important;
+	margin: 0 auto;
+	width: 100%;
+	padding-bottom: 1.5rem;
+}
+#leftCol span.featured label {
+	color: #999;
+	font-size: 0.8rem;
+	padding: 10px 0 0px 0;
+	width: 100%;
+	border-bottom: 1px solid #eee;
+	margin-bottom: 10px;
+}
+#leftCol span.featured h6 {
+	font-size: 0.75rem;
+	color: #999;
+}
+#leftCol span.featured h6 a {
+	color: #666;
+}
+.featured h1 {
+	font-size: 2.7rem;
+	line-height: 3rem;
+	font-weight: 800;
+	letter-spacing: -0.1rem;
+}
+.featured h1 a {
+	color: #000;
+}
+#leftCol .featured p {
+    font-size: 1.2rem;
+    line-height: normal;
+    padding: 1rem 0 0rem 0;
+    margin: 0;
+}
+#leftCol .featured p.longDescr {
+    font-size: 0.9rem;
+    line-height: 1.4rem;
+    color: #666;
+    padding: 1rem 0 0 0;
+}
+.pageImg {
+	background: #000;
+	text-align: center;
+	background-size: cover !important;
+	min-height: 520px;
+}
+#main-menu {
+	background: none;
+	padding: 0;
+	margin-bottom: 10px;
+}
+#main-menu .menu {
+	background: transparent;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	padding: 5px 0;
+	margin-bottom: 5px;
+}
+#main-menu .menu li {
+	border-left: 1px solid #eee;
+	float: left;
+	display: table;
+}
+#main-menu .menu li:first-child {
+	border-left: 0;
+}
+#main-menu .menu li a {
+	margin: 0;
+	padding: 0.5rem 0.8rem;
+	color: #000;
+	font-size: 0.6rem;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+#leftCol-mid h4, .cat .catHeader + .pageItem h4 {
+	font-size: 1rem;
+	line-height: normal;
+	font-weight: bold;
+	color: #000;
+	margin-top: 10px;
+}
+#leftCol-mid h4 a {
+	color: #000;
+}
+#leftCol-mid h6 {
+	margin: 0;
+	font-size: 0.8rem;
+	color: #999;
+}
+#leftCol-mid p {
+    font-size: 0.85rem;
+    line-height: 1.3rem;
+    color: #666;
+}
+.catPages {
+	height: 150px;
+	width: 100%;
+	background-size: cover !important;
+}
+#leftCol-mid > .catItems {
+    float: none !important;
+    display: inline-block;
+    vertical-align: text-top;
+}
+#leftCol-mid > .catItems a {
+	display: block;
+	border-bottom: 1px solid #ccc;
+	min-height: 360px;
+	margin-bottom: 25px;
+}
+#leftCol-mid > .catItems:last-child:not(:first-child) {
+	float: left;
+}
+#leftCol-mid h2 {
+	font-size: 1.5rem;
+	width: 100%;
+	border-bottom: 1px solid #eee;
+	margin-bottom: 35px;
+	padding-bottom: 10px;
+	text-indent: 18px;
+	margin-top: 15px;
+	color: #999;
+}
+div#footer {
+	border-bottom: 1px solid #999;
+	border-top: 3px solid #000;
+	padding: 0.8rem 0;
+	margin-bottom: 2rem;
+}
+#footer ul {
+    width: auto;
+    margin: 0 auto;
+}
+#footer ul li {
+    padding: 0px 0.8rem;
+    text-transform: uppercase;
+    font-size: 0.6rem;
+    font-weight: 800;
+}
+#footer ul li a {
+	margin: 0;
+	padding: 0;
+	color: #999;
+}
+#rightCol .sidebar {
+	padding: 0rem 0 0.9rem 1.5rem;
+	border-left: 1px solid #eee;
+}
+#rightCol .sidebar .pageItem a h4 {
+	display: block;
+}
+#rightCol .pageItem {
+	margin-bottom: 5px;
+	border-bottom: 1px solid #ccc;
+	color: #666;
+	padding-bottom: 0.5rem;
+}
+#rightCol .pageItem span {
+	width: 50px;
+	background-size: auto 100% !important;
+	display: table;
+	height: 50px;
+	float: left;
+	margin-right: 10px;
+	border: 1px solid #eee;
+}
+#rightCol .pageItem p {
+	line-height: normal;
+	float: left;
+}
+#rightCol .pageItem h6 {
+	font-size: 0.7rem;
+	margin: 0;
+}
+#demo-custom {
+	padding-bottom: 0.5rem;
+	border-bottom: 1px solid #eee;
+	margin-bottom: 1rem;
+}
+span.ad1 {
+    padding: 0 0 1rem 0;
+    margin: 0;
+    text-indent: 0;
+}
+span.ad2 {
+    padding: 0 0 1rem 0;
+    margin: 0;
+    text-indent: 0;
+}
+span.ad3 {
+padding: 0 0 1rem 0;
+    margin: 0 auto;
+    text-indent: 0;
+}
+.sharrre a {
+	padding: 0.2rem;
+	border: 1px solid #eee;
+	width: 100%;
+	display: inline-block;
+	max-width: 35px;
+	text-align: center;
+	margin: 0.2rem;
+	background: #eee9;
+}
+.footerAd {
+    text-align: center;
+	width: 100%;
+	display: table;
+	border-bottom: 1px solid #eee;
+	padding-bottom: 0.75rem;
+	margin-bottom: 0.75rem;
+}
+.footerText p {
+    padding: 10px 0 0 0;
+    margin: 0.5rem 0 0 0;
+    font-size: 0.6rem;
+    color: #999;
+    text-align: center;
+    text-transform: uppercase;
+}
+.social-icons-wrapper {
+    margin: 0 auto;
+    padding: 0 0 1.5rem 0;
+}
+.social-icons-wrapper img { 
+    max-width: 25px;
+    opacity: 0.5;
+}
+.social-icons-wrapper img:hover {
+    opacity: 1;	
+}
