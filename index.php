@@ -9,7 +9,6 @@ include('inc/mainconfig.php');
 <html class="no-js" lang="en">
 <head>
 <!-- Google Tag Manager -->
-
 <!-- End Google Tag Manager -->
 <meta charset="utf-8" />
 <meta http-equiv="x-ua-compatible" content="ie=edge">
