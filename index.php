@@ -1,5 +1,5 @@
 <?php
-$premiumAccountID = "826303807254601856446410"; ///// ENTER PREMIUM ACCOUNT ID HERE
+$premiumAccountID = "442033417686222948290304"; ///// ENTER PREMIUM ACCOUNT ID HERE
 
 include('inc/simple_html_dom.php');
 include('inc/mainconfig.php');
